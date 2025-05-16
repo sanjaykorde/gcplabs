@@ -14,7 +14,6 @@ export REGIONNAME
 gcloud services enable cloudscheduler.googleapis.com && \
 git clone https://github.com/GoogleCloudPlatform/gcf-automated-resource-cleanup.git && \
 cd gcf-automated-resource-cleanup/unused-ip && \
- && \
 export USED_IP=used-ip-address && \
 export UNUSED_IP=unused-ip-address && \
 gcloud compute addresses create $USED_IP --project=$PROJECT_ID --region=$REGIONNAME && \
