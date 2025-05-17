@@ -1,5 +1,5 @@
 #!/bin/bash
-gcloud init
+
 # ========== Setup ==========
 echo "🔍 Getting project ID..."
 export PROJECT_ID=$(gcloud config list --format 'value(core.project)' 2>/dev/null)
