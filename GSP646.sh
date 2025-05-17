@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # ========== Prompt for Project ID and Region ==========
 read -p "🆔 Enter your Google Cloud Project ID: " PROJECT_ID
 export PROJECT_ID
